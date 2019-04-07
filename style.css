@@ -80,6 +80,7 @@
 
     #home{
         height: 800px;
+        max-height: 800px;
         display: grid;
         grid-template-columns: 25% 25% 25% 25% ;
         background-color: #00B5A5;
@@ -113,6 +114,7 @@
 
     #about {
         height: 800px;
+        max-height: 800px;
         display: grid;
         grid-template-columns: 50% 50% ;
         background-color: white;
@@ -135,12 +137,12 @@
         margin-left: 100px;
     }
 
-.contentl p{
-    display: grid;
-    color: antiquewhite;
-    grid-column: 1/2;
-    text-align: left;
-}
+    .contentl p{
+        display: grid;
+        color: antiquewhite;
+        grid-column: 1/2;
+        text-align: left;
+    }
 
     .self{
         grid-column: 2/3;
@@ -174,18 +176,55 @@
         float: left;
     }
 
-#portfolio img{
-    display: inline-block;
-}
+    #portfolio img{
+        display: inline-block;
+    }
 
 /* --- contact --*/
 
     #contact{
             height: 800px;
             max-height: 800px;
+            display: grid;
+            grid-template-columns: 50% 50%;
             background-color:palegoldenrod;
         }
- 
+
+/* --- grid right --*/
+
+    .contactr{
+       grid-column: 1/2; 
+    }
+
+    .contactr ul{
+        background-color:aliceblue;
+        
+    }
+    
+    .contactr ul li{
+        display: inline-block;
+        margin-right: 20px;
+        margin-left: 10px;
+        margin-top: 0px;
+        margin-bottom: 0px;
+    }
+
+    li a{
+        color:#00B5A5; 
+    }
+
+    li a:hover{
+        color: #00B5A5;
+        transition: ease-in, 0.5s;
+        align-content: right;
+
+    }
+
+/* --- grid left --*/
+
+    .contactl img{
+        
+    }
 
 
 
