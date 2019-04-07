@@ -200,25 +200,23 @@
         background-color:aliceblue;
         
     }
+
+/* --- social media links --*/
     
-    .contactr ul li{
-        display: inline-block;
-        margin-right: 20px;
-        margin-left: 10px;
-        margin-top: 0px;
-        margin-bottom: 0px;
-    }
+.social{
+    position: relative;
+    display: inline;
+    margin: auto;
+    margin: 20px, 0px;
+}
 
-    li a{
-        color:#00B5A5; 
-    }
+.social ul{
+    
+}
 
-    li a:hover{
-        color: #00B5A5;
-        transition: ease-in, 0.5s;
-        align-content: right;
-
-    }
+.social li{
+    display: inline-block;
+}
 
 /* --- grid left --*/
 
