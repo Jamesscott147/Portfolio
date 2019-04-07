@@ -1,0 +1,191 @@
+/* --- hard reset --*/ 
+
+    * {
+        margin: 0;
+        padding: 0;
+    }
+
+    body{
+        width: 100%;
+        max-width: 9600px; 
+    }
+
+/* --- Font Styling --*/
+
+    p{
+        font-family: 'roboto', sans-serif;
+        font-weight: 700;
+        color: 
+    }
+
+    h1, h2, h3{
+        font-family: 'roboto', sans-serif;
+        font-weight: 900;
+    }
+
+
+/* --- Nav --*/
+    
+    
+    
+    }
+
+    #nav img{
+        display: block;
+        padding-right:  100px;
+        float: left;
+        height: 100px;
+        
+    }
+    
+    ul{
+        text-align: right;
+        background-color:#00b5a5;
+        grid-column: 1/5;
+    }
+        
+    ul li{
+        display: inline-block;
+        margin-right: 20px;
+        margin-left: 10px;
+        margin-top: 0px;
+        margin-bottom: 0px;
+        text-align: right;
+        font-family: 'Roboto|900', sans-serif;
+        font-size: 20px;
+        font-weight: 900;
+        grid-column: 3/5;
+        }
+
+    ul img{
+        margin: auto;
+        margin-right: 300px;
+        margin-top: 10px;
+        height:auto;
+        width:50px;
+        align-content: center;
+    }
+
+    li a{
+        color:white;
+        text-decoration: none;
+        }
+
+    li a:hover {
+        color:#242058;
+        transition: ease-in, 0.5s;
+    }
+
+/* --- home --*/ 
+
+    #home{
+        height: 800px;
+        display: grid;
+        grid-template-columns: 25% 25% 25% 25% ;
+        background-color: #00B5A5;
+        
+    }
+
+    #home h2{
+        
+        margin-top: 200px;
+        grid-column: 2/2;
+        color:white;
+        text-align: right;
+        font-size: 300px;
+        font-family: 'roboto|900', sans-serif;
+    }
+
+    #home p{
+        grid-column: 3/3;
+        z-index: +1 ;
+        font-family: 'roboto', sans-serif;
+        font-size: 40px;
+        font-weight: 700;
+        color: aliceblue;
+        margin-top: 230px;
+        margin-left: 20px;
+        
+        
+    }
+
+/* --- about --*/ 
+
+    #about {
+        height: 800px;
+        display: grid;
+        grid-template-columns: 50% 50% ;
+        background-color: white;
+        
+    }
+
+    #about h2{
+        margin-top: 90px;
+        margin-left: 100px;
+        grid-column: 1/2;
+        color:#242058;
+        text-align: right;
+        font-size: 80px;
+        font-family: 'roboto|900', sans-serif;
+        float: left;
+    }
+
+    #about img{
+        display: inline-block;
+        margin-left: 100px;
+    }
+
+.contentl p{
+    display: grid;
+    color: antiquewhite;
+    grid-column: 1/2;
+    text-align: center;
+}
+
+    .self{
+        grid-column: 2/3;
+        align-content: center;
+        height: 20px;
+        width: 20px;
+    }
+
+    .self img{
+        height: 100px;
+        width: 100px;
+        margin: auto;
+    }
+
+/* --- Portfolio --*/
+
+    #portfolio{
+        height: 800px;
+        max-height: 800px;
+        background-color: fuchsia;
+    }
+
+    #portfolio h2{
+        margin-top: 90px;
+        margin-left: 100px;
+        grid-column: 1/2;
+        color:#242058;
+        text-align: right;
+        font-size: 80px;
+        font-family: 'roboto|900', sans-serif;
+        float: left;
+    }
+
+#portfolio img{
+    display: inline-block;
+}
+
+/* --- contact --*/
+
+    #contact{
+            height: 800px;
+            max-height: 800px;
+            background-color:palegoldenrod;
+        }
+ 
+
+
+
