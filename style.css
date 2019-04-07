@@ -139,7 +139,7 @@
     display: grid;
     color: antiquewhite;
     grid-column: 1/2;
-    text-align: center;
+    text-align: left;
 }
 
     .self{
