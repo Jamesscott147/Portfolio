@@ -1,2 +1,2 @@
 # Portfolio
-[Final portfolio site](https://github.com/Jamesscott147/Portfolio.git/main.html)
+[Final portfolio site](https://jamesscott147.github.io/Portfolio/main.html)
