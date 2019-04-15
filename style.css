@@ -310,6 +310,10 @@
       
     }
 
+.mail-me{
+    display: inline-block;
+}
+
     .contentl p{
         color:#242058;
         text-align: left;
