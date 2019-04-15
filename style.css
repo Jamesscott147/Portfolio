@@ -140,6 +140,8 @@
         min-height: 800px;
         background-color: white;
         padding: 50px;
+        background-image: url(images/about/SVG/01.svg);
+        background-repeat: no-repeat;
         
     }
 
@@ -195,7 +197,9 @@
         min-height: 800px;
         background-color: white;
         padding: 50px;
-        
+        background-image: url(images/portfolio/02.svg);
+        background-repeat: no-repeat;
+         
     }
 
     #portfolio-content {
@@ -274,6 +278,8 @@
         min-height: 800px;
         max-height: 800px;
         background-color: white;
+        background-image: url(images/contact/SVG/03.svg);
+        background-repeat: no-repeat;
         padding: 70px;
         
     }
