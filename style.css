@@ -275,6 +275,7 @@
     width: 30em;
     margin: 40px;
     grid-column: 1/2;
+   
 }
 
 .bdl{
@@ -293,6 +294,7 @@
 }
 
 /* --- end of black death case study ---*/
+/* --- Walk mobile app ---*/
 
 .walk{
     display: grid;
@@ -331,7 +333,41 @@
     font-size: 2em;
 }
 
-/* --- walk app case study ---*/
+/* --- End of walk app case study ---*/
+.day{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    margin-top: 60px;
+}
+
+.day img{
+    border-radius: 10px;
+    height:auto;
+    width: 30em;
+    margin: 40px;
+    grid-column: 1/2;
+}
+
+
+
+
+.dayl{
+    position: relative;
+}
+.dayh2{
+    font-size:3em;
+    margin-top: 40px;
+    margin-bottom: 20px;
+    
+}
+
+.dayp{
+    color:#242058;
+    font-size: 2em;
+}
+/* --- 30 day logo challenge ---*/
+
+/* --- end of 30 day logo challenge ---*/
 
 .button{
     background-color: #00B5A5;
