@@ -13,6 +13,7 @@
 
     html{
         scroll-behavior: smooth;
+        
     }
 
    
@@ -28,6 +29,8 @@
      h2, h3{
         font-family: 'roboto', sans-serif;
         font-weight: 900;
+        color:#242058;
+        
     }
 
 .behind{
@@ -127,7 +130,7 @@
         font-family: 'roboto', sans-serif;
         font-size: 40px;
         font-weight: 700;
-        color: aliceblue;
+        color: white;
         margin-top: 230px;
         margin-left: 20px;
         
@@ -167,6 +170,7 @@
         height: 100px;
         width: 100px;
         margin-left: 100px;
+        align-content: center;
       
     }
 
@@ -188,6 +192,10 @@
         height: 600px;
         width: 600px;
     }
+
+.img skills{
+    margin-right: 10px;
+}
 
 
 
@@ -211,7 +219,7 @@
 
 
 
-    #portfolio h2{
+    .portfolio-h2{
         color:#242058;
         text-align: left;
         font-size: 80px;
@@ -234,41 +242,122 @@
         margin-top: 50px;
     }
 
-    .flex-container{
-        display: flex;
-        flex-wrap: nowrap;
-        background-color: none;
-        justify-content: center;
+    .container {
+      position: relative;
+      width: 50%;
     }
 
-    .flex-container > div{
-        background-color: #00B5A5;
-        width: 400px;
-        height:500px;
-        margin: 40px;
-        text-align: center;
-        line-height: 75px;
-        align-content: center;
-        border-radius: 10px;
+    .image {
+      display: block;
+      width: 100%;
+      height: 10em;
+      width: 10em;
     }
 
-    .flex-container:hover{
-        color: aqua;
-        transition: ease-out, 0.2s;
-    }
-
-.flex-container img{
-    display: inline-block;
-    justify-content: center;
-    margin-top: 160px;
+/* --- black death case study ---*/
+.black-death{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    margin-top: 60px;
 }
 
-/* --- flex container content ---*/
+.black-death img{
+    border-radius: 10px;
+    height:auto;
+    width: 30em;
+    margin: 40px;
+    grid-column: 1/2;
+}
+
+.bdl img{
+    border-radius: 10px;
+    height:auto;
+    width: 30em;
+    margin: 40px;
+    grid-column: 1/2;
+}
+
+.bdl{
+    position: relative;
+}
+.blh2{
+    font-size:3em;
+    margin-top: 40px;
+    margin-bottom: 20px;
+    
+}
+
+.bdp{
+    color:#242058;
+    font-size: 2em;
+}
+
+/* --- end of black death case study ---*/
+
+.walk{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    margin-top: 60px;
+}
 
 .walk img{
-    display: inline-block;
-    align-content:center;
+    border-radius: 10px;
+    height:auto;
+    width: 30em;
+    margin: 40px;
+    grid-column: 1/2;
 }
+
+.walk img{
+    border-radius: 10px;
+    height:auto;
+    width: 30em;
+    margin: 40px;
+    grid-column: 1/2;
+}
+
+.walkl{
+    position: relative;
+}
+.walkh2{
+    font-size:3em;
+    margin-top: 40px;
+    margin-bottom: 20px;
+    
+}
+
+.walkp{
+    color:#242058;
+    font-size: 2em;
+}
+
+/* --- walk app case study ---*/
+
+.button{
+    background-color: #00B5A5;
+    border: none;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    text-decoration: none;
+    font-family: 'robot', sans-serif;
+    font-size: 16px;
+    border-radius: 30px;
+    position: relative;
+    opacity: 1;
+    transition: 0.3s;
+    margin-top: 60px;
+}
+
+.button:hover {opacity: 0.6}
+
+.button span{
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+}
+
+
 
     
 
@@ -310,9 +399,9 @@
       
     }
 
-.mail-me{
-    display: inline-block;
-}
+    .mail-me{
+        display: inline-block;
+    }
 
     .contentl p{
         color:#242058;
@@ -321,18 +410,6 @@
         margin-top: 100px;
     }
 
-.contentl img{
-    margin-top: 10px;
-    margin-right: 10px;
-}
-
-.content a{
-    color:#242058;
-}
-
-.content a:hover{
-    fill: aliceblue;
-}
 
     
 
@@ -342,8 +419,12 @@
         width: 600px;
     }
 
-.self{
-    
-}
+    .self{
+
+    }
+
+/* --- END OF MAIN PAGE ---*/
+
+/* --- Walk case study ---
 
 
