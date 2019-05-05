@@ -473,6 +473,225 @@
 
 /* --- END OF MAIN PAGE ---*/
 
+
+/* --- black death infographic --- */
+
+#page2 h2{
+    
+}
+
+/* --- navigation ---*/
+     #page2 ul{
+        text-align: right;
+        background-color:#E15A26;
+        
+    }
+        
+    #page2 ul li{
+        display: inline-block;
+        margin-right: 20px;
+        margin-left: 10px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        text-align: right;
+        font-family: 'Roboto|900', sans-serif;
+        font-size: 2em;
+        grid-column: 3/5;
+        }
+
+    #page2 ul img{
+        margin: auto;
+        margin-right: 300px;
+        margin-top: 10px;
+        height:auto;
+        width:50px;
+        align-content: center;
+    }
+/* --- end of navigation ---*/
+
+/* --- home --- */
+#page2 .home{
+     background-image: url(images/infographic/SVG/background.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color:beige;
+    height: 800px;
+    width:100%;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 800px;
+}
+
+#page2 .home h1{
+    font-family: 'roboto', sans-serif;
+    font-size: 4em;
+    color: white;
+}
+/* --- end of home --- */
+
+/* --- breif --- */
+#page2 #breif{
+    height: 800px;
+    background-color:white;
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+#page2 .breif-img{
+    grid-column: 0/1;
+    display: block;
+    margin: auto;
+}
+
+#page2 .brief{
+    margin-top: 180px;
+    
+}
+
+#page2 .brief h2{
+    font-size: 5em;
+    padding: 0px;
+    margin-bottom: 30px;
+}
+
+#page2 .brief p{
+    font-size: 1.5em;
+    margin-right: 100px;
+    color: #242058;
+}
+
+
+
+/* --- end of breif --- */
+
+/* --- skills used --- */
+
+    #page2 #intro{
+        height: 100px;
+        text-align: center;
+        vertical-align: middle;
+        line-height: 100px;
+    }
+
+    #intro .head{
+      
+    }
+
+    .head h2{
+        
+        font-size: 3em;
+    }
+
+    #page2 #skills{
+        height: 400px;
+        display: grid;
+        grid-template-columns: 33% 33% 33%;
+    }
+
+    #skills img{
+        height: 15em;
+    }
+
+    .skills {
+        display: inline-block;
+        margin: auto;
+
+    }
+
+/* --- end of skills used --- */
+
+/* --- illustrations --- */
+
+    #page2 #illustrations{
+        height: 800px;
+        background-color:#E15A26;
+        display: grid;
+        grid-template-columns: 50% 50%;
+    }
+
+    .illustration-info{
+        margin-top: 100px;
+        margin-left:150px;
+        margin-right: 50px;
+        vertical-align: middle;
+    }
+
+    .illustration-info h2{
+        color: white;
+        font-size: 3em;
+        margin-bottom: 30px;
+    }
+
+    .illustration-info p{
+        color: white;
+        font-size: 1.5em;
+    }
+
+.illustration-info a{
+    text-decoration: none;
+    color: #242058;
+}
+
+.illustration-info a:hover{
+    color: white;
+    transition: ease-in, 0.3s;
+}
+
+    .illustration-image{
+        display: inline-block;
+        margin: auto;
+    }
+
+/* --- end of illustrations --- */
+
+/* --- github --- */
+#page2 #github{
+    height: 100px;
+    
+    background-color: white;
+    text-align: center;
+    vertical-align: middle;
+    margin: auto;
+    
+}
+
+#page2 .github{
+   margin: auto;
+}
+
+.github p{
+    font-size: 2em;
+    color: #242058;
+    margin-top: 50px;
+}
+
+.github a{
+    text-decoration: none;
+    color:#00b5a5;
+}
+
+.github a:hover{
+    color: #242058;
+    transition: ease-in, 0.5s;
+}
+/* --- end of github ---*/
+
+/* --- end of black death infographic ---*/
+
+
+
+/* --- walk --- */
+#page4 .home{
+    background-image: url(images/walk/background.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: aqua;
+    height: 800px;
+    width: 100%;
+    
+}
+/* --- end of walk --- */
+
 /* --- 30 day logo challenge --- */
 
 /* --- navigation --- */
@@ -629,72 +848,6 @@
     transition: ease-in, 0.5s;
 }
 /* --- end of 30 day logo challenge --- */
-
-/* --- black death infographic --- */
-
-/* --- navigation ---*/
-     #page2 ul{
-        text-align: left;
-        background-color:#E15A26;
-        
-    }
-        
-    #page2 ul li{
-        display: inline-block;
-        margin-right: 20px;
-        margin-left: 10px;
-        margin-top: 20px;
-        margin-bottom: 20px;
-        text-align: right;
-        font-family: 'Roboto|900', sans-serif;
-        font-size: 2em;
-        grid-column: 3/5;
-        }
-
-    #page2 ul img{
-        margin: auto;
-        margin-right: 300px;
-        margin-top: 10px;
-        height:auto;
-        width:50px;
-        align-content: center;
-    }
-/* --- end of navigation ---*/
-
-/* --- home --- */
-#page2 .home{
-     background-image: url(images/infographic/SVG/background.svg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-color:beige;
-    height: 800px;
-    width:100%;
-    text-align: center;
-    vertical-align: middle;
-    line-height: 800px;
-}
-
-#page2 .home h1{
-    font-family: 'roboto', sans-serif;
-    font-size: 4em;
-    color: white;
-}
-/* --- end of home --- */
-
-/* --- end of black death infographic ---*/
-
-/* --- walk --- */
-#page4 .home{
-    background-image: url(images/walk/background.png);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-color: aqua;
-    height: 800px;
-    width: 100%;
-    
-}
-/* --- end of walk --- */
-
 
 
 
