@@ -454,6 +454,10 @@
         margin-top: 100px;
     }
 
+.social-media img{
+    margin-left: 20px;
+}
+
 
     
 
@@ -663,14 +667,15 @@
     background-color:beige;
     height: 800px;
     width:100%;
-   align-content: center;
+    text-align: center;
     vertical-align: middle;
     line-height: 800px;
 }
 
-#page2 .home img{
-    height: 10%;
-    width: 10%;
+#page2 .home h1{
+    font-family: 'roboto', sans-serif;
+    font-size: 4em;
+    color: white;
 }
 /* --- end of home --- */
 
