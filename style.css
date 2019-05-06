@@ -474,6 +474,14 @@
 /* --- END OF MAIN PAGE ---*/
 
 
+
+
+
+
+
+
+
+
 /* --- black death infographic --- */
 
 #page2 h2{
@@ -647,7 +655,6 @@
 /* --- github --- */
 #page2 #github{
     height: 100px;
-    
     background-color: white;
     text-align: center;
     vertical-align: middle;
@@ -680,7 +687,17 @@
 
 
 
+
+
+
+
+
+
 /* --- walk --- */
+#page4{
+    
+}
+
 #page4 .home{
     background-image: url(images/walk/background.png);
     background-repeat: no-repeat;
@@ -688,9 +705,245 @@
     background-color: aqua;
     height: 800px;
     width: 100%;
+    text-align: center;
+    vertical-align: middle;
     
 }
+
+#page4 .home h1{
+    font-family: 'roboto', sans-serif;
+    font-size: 4em;
+    color: white;
+    
+}
+
+/* --- navigation --- */
+
+#page4 ul{
+        text-align: right;
+        background-color:#FFC802;
+        
+    }
+        
+    #page4 ul li{
+        display: inline-block;
+        margin-right: 20px;
+        margin-left: 10px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        text-align: right;
+        font-family: 'Roboto|900', sans-serif;
+        font-size: 2em;
+        grid-column: 3/5;
+        }
+
+    #page4 ul img{
+        margin: auto;
+        margin-right: 300px;
+        margin-top: 10px;
+        height:auto;
+        width:50px;
+        align-content: center;
+    }
+
+/* --- end of navigation ---*/
+
+/* --- brief ---*/
+    #page4 #breif{
+    height: 800px;
+    background-color:white;
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+#page4 .breif-img{
+    grid-column: 0/1;
+    display: block;
+    margin: auto;
+}
+
+#page4 .brief{
+    margin-top: 180px;
+    
+}
+
+#page4 .brief h2{
+    font-size: 5em;
+    padding: 0px;
+    margin-bottom: 30px;
+}
+
+#page4 .brief p{
+    font-size: 1.5em;
+    margin-right: 100px;
+    color: #242058;
+}
+
+/* --- end of brief --- */
+
+/* --- info ---*/
+
+#page4 #info{
+    height: 800px;
+    width: 100%;
+    background-color: #FFC802;
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+#info .info{
+        margin-top: 130px;
+        margin-left:120px;
+        margin-right: 120px;
+        vertical-align: middle;
+    }
+
+   #info .info h2{
+        color: white;
+        font-size: 3em;
+        margin-bottom: 30px;
+    }
+
+    #info .info p{
+        color: white;
+        font-size: 1.5em;
+    }
+
+#info .screen{
+    display: inline-block;
+    margin: auto;
+}
+
+.screen img{
+    border-radius: 10px;
+}
+
+/* --- end of info --- */
+
+/* --- skills used ---*/
+
+#page4 #intro{
+        height: 100px;
+        text-align: center;
+        vertical-align: middle;
+        line-height: 100px;
+    }
+
+    #intro .head{
+      
+    }
+
+    .head h2{
+        
+        font-size: 3em;
+    }
+
+    #page4 #skills{
+        height: 400px;
+        display: grid;
+        grid-template-columns: 33% 33% 33%;
+    }
+
+    #skills img{
+        height: 15em;
+    }
+
+    .skills {
+        display: inline-block;
+        margin: auto;
+
+    }
+
+/* --- end of skills used --- */
+
+/* --- prototype --- */
+
+#page4 #prototype{
+    height: 800px;
+    width: 100%;
+    background-color: #FFC802;
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+#page4 #prototype .image{
+    display: inline-block;
+    margin: auto;
+    height: 30em;
+    width: 60%;
+ 
+}
+
+ #prototype .info{
+        margin-top: 250px;
+        margin-left:150px;
+        margin-right: 50px;
+        vertical-align: middle;
+    }
+
+   #prototype .info h2{
+        color: white;
+        font-size: 3em;
+        margin-bottom: 30px;
+    }
+
+    #prototype .info p{
+        color: white;
+        font-size: 1.5em;
+    }
+
+#prototype .info a{
+    text-decoration: none;
+    color: #242058;
+}
+
+#prototype .info a:hover {
+    color: white;
+    transition: ease-in, 0.3s;
+}
+
+/* --- end of prototype --- */
+
+/* --- github --- */
+
+#page4 #github-walk{
+    height: 100px;
+    background-color: white;
+    text-align: center;
+    vertical-align: middle;
+    margin: auto;
+    
+}
+
+#page4 .github{
+   margin: auto;
+}
+
+.github p{
+    font-size: 2em;
+    color: #242058;
+    margin-top: 50px;
+}
+
+.github a{
+    text-decoration: none;
+    color:#00b5a5;
+}
+
+.github a:hover{
+    color: #242058;
+    transition: ease-in, 0.5s;
+}
+
+/* --- end of github --- */
+
 /* --- end of walk --- */
+
+
+
+
+
+
 
 /* --- 30 day logo challenge --- */
 
@@ -698,6 +951,8 @@
    #page3 ul{
         text-align: left;
         background-color:#00b5a5;
+        
+       
         
     }
         
@@ -725,7 +980,7 @@
 
 /* --- home --- */
 
-#page3 {
+#page4 {
     width: 100%;
     max-width:100%;
 }
